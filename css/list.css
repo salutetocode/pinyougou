@@ -1,0 +1,224 @@
+a {
+  text-decoration: none;
+}
+.header .sk {
+  position: absolute;
+  left: 185px;
+  top: 40px;
+  border-left: 1px solid #b1191a;
+  padding: 3px 0 3px 14px;
+}
+.nav {
+  overflow: hidden;
+}
+.nav .sk_list {
+  float: left;
+}
+.nav .sk_list li {
+  float: left;
+}
+.nav .sk_list li a {
+  display: block;
+  padding: 0 28px;
+  line-height: 47px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+}
+.nav .sk_con {
+  float: left;
+}
+.nav .sk_con li {
+  float: left;
+}
+.nav .sk_con li a {
+  display: block;
+  padding: 0 23px;
+  line-height: 49px;
+  font-size: 14px;
+}
+.nav .sk_con li a:hover {
+  color: #c81623;
+}
+.nav .sk_con li:last-child a::after {
+  content: '\e900';
+  font-family: 'icomoon';
+}
+.sk_container .sk_bd ul {
+  margin-top: 25px;
+  width: 1202px;
+}
+.sk_container .sk_bd ul li {
+  position: relative;
+  float: left;
+  width: 290px;
+  height: 460px;
+  border: 1px solid transparent;
+  margin-right: 13px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.sk_container .sk_bd ul li:nth-child(4n) {
+  margin-right: 0;
+}
+.sk_container .sk_bd ul li:hover {
+  border: 1px solid #c81623;
+}
+.sk_container .sk_bd ul li p {
+  padding-left: 12px;
+  font-size: 14px;
+  line-height: 21px;
+}
+.sk_container .sk_bd ul li .jiage {
+  margin-top: 10px;
+  padding-left: 12px;
+  height: 22px;
+}
+.sk_container .sk_bd ul li .jiage .price {
+  display: inline-block;
+  font-size: 22px;
+  color: #e60012;
+}
+.sk_container .sk_bd ul li .jiage span {
+  font-size: 14px;
+  color: #a4a4a4;
+  line-height: 24px;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+.sk_container .sk_bd ul li .things {
+  height: 14px;
+  line-height: 14px;
+  font-size: 14px;
+  margin-top: 13px;
+  margin-bottom: 14px;
+  padding-left: 12px;
+}
+.sk_container .sk_bd ul li .things span,
+.bought {
+  float: left;
+}
+.sk_container .sk_bd ul li .things span:first-child {
+  margin-right: 12px;
+}
+.sk_container .sk_bd ul li .things span:last-child {
+  margin-left: 11px;
+}
+.sk_container .sk_bd ul li .things .bought {
+  display: inline-block;
+  width: 132px;
+  height: 10px;
+  border: 1px solid #e12228;
+  border-radius: 4px;
+  margin: 1px 0;
+  overflow: hidden;
+}
+.bought .left {
+  float: left;
+  width: 117px;
+  height: 10px;
+  background-color: #ed282e;
+  /* border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px; */
+}
+.bought .right {
+  float: right;
+  width: 15px;
+  height: 10px;
+  /* border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px; */
+}
+.sk_container .sk_bd ul li .things span i {
+  color: #e12228;
+}
+.sk_container .sk_bd ul li button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 49px;
+  line-height: 49px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  background-color: #b1191a;
+  border: none;
+}
+.page {
+  margin: 40px 0;
+  /* 里面的文字内容，行内块，行内元素都可以水平居中对齐 */
+  text-align: center;
+}
+.page_num a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+}
+.page_num .pn_prev,
+.page_num .pn_next {
+  width: 83px;
+}
+.page_num .current,
+.page_num .dotted {
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+.page_skip input {
+  width: 46px;
+  height: 36px;
+  border: 1px solid #ccc;
+  text-align: center;
+  transition: all 0.5s;
+}
+.page_skip input:focus {
+  width: 56px;
+  border: 1px solid skyblue;
+}
+.page_skip button {
+  width: 54px;
+  height: 36px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+}
+.fixedtool {
+  position: fixed;
+  top: 210px;
+  left: 50%;
+  margin-left: 610px;
+  font-size: 20px;
+  width: 68px;
+}
+.fixedtool .top,
+.fixedtool .phone {
+  display: block;
+  color: #fff;
+  background-color: #b1191a;
+}
+.fixedtool .top:hover,
+.fixedtool .phone:hover {
+  cursor: pointer;
+}
+.fixedtool .top {
+  position: relative;
+  padding: 20px 16px 20px;
+  border-bottom: 1px solid #fff;
+}
+.fixedtool .top::before {
+  position: absolute;
+  content: '\e903';
+  font-family: 'icomoon';
+  top: 3px;
+  left: 25px;
+}
+.fixedtool .phone {
+  padding: 12px 17px 12px 19px;
+}
+.fixedtool .phone::before {
+  content: '\e959';
+  font-family: 'icomoon';
+  padding: 7px;
+}

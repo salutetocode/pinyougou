@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 85px;
+}
+.header b {
+  position: absolute;
+  top: 42px;
+  left: 196px;
+  display: inline-block;
+  font-size: 20px;
+}
+.search_self {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  width: 426px;
+  height: 36px;
+  border: 2px solid #b1191a;
+  overflow: hidden;
+}
+.search_self input {
+  display: inline-block;
+  width: 338px;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 13px;
+}
+.search_self button {
+  width: 80px;
+  height: 32px;
+  background-color: #b1191a;
+  font-size: 16px;
+  color: #fff;
+}
+.order .info {
+  margin: 20px 0;
+  font-size: 16px;
+}
+.order_info {
+  padding: 40px 25px 0;
+  border: 1px solid #ccc;
+}
+.ml25 {
+  margin-left: 25px;
+}
+.user_info {
+  height: 33px;
+  padding-right: 35px;
+}
+.user_info h4 {
+  font-size: 14px;
+  color: #333;
+}
+.user_info a {
+  font-size: 12px;
+  color: #1474af;
+}
+.ml44 {
+  margin-left: 44px;
+}
+.user_address {
+  height: 83px;
+  border-bottom: 1px solid #ededed;
+}
+.user_address span {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+}
+.user_address span:first-child {
+  display: inline-block;
+  width: 144px;
+  border: 2px solid #c81623;
+  line-height: 26px;
+  text-align: center;
+  margin-right: 11px;
+}
+.user_address .more_adress a {
+  display: block;
+  height: 52px;
+  line-height: 52px;
+  font-size: 12px;
+  border: 0;
+}
+.user_address .more_adress a::after {
+  content: '\e900';
+  font-family: 'icomoon';
+  color: #666;
+  margin-left: 10px;
+  vertical-align: top;
+}
+.bring_address {
+  height: 71px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ededed;
+}
+.bring_address span {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+}
+.bring_address span:first-child {
+  display: inline-block;
+  width: 146px;
+  border: 1px solid #ddd;
+  line-height: 28px;
+  text-align: center;
+  margin-right: 11px;
+}
+.pay_way {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ededed;
+}
+.pay_way h4 {
+  height: 54px;
+  line-height: 54px;
+  font-size: 14px;
+  color: #333;
+}
+.pay_way ul,
+.pay_way span {
+  height: 30px;
+  font-size: 12px;
+}
+.pay_way ul {
+  float: left;
+  display: flex;
+  width: 195px;
+  line-height: 28px;
+  border: 1px solid #ddd;
+  margin-left: 54px;
+}
+.pay_way ul li {
+  flex: 1;
+  float: left;
+  text-align: center;
+}
+.pay_way ul li:first-child {
+  border-right: 1px solid #ddd;
+}
+.pay_way span {
+  float: left;
+  display: block;
+  margin-left: 10px;
+  width: 98px;
+  height: 30px;
+  border: 2px solid #c81623;
+  line-height: 26px;
+  text-align: center;
+}
+.pay_way a {
+  float: left;
+  display: block;
+  height: 30px;
+  padding-top: 5px;
+  margin-left: 26px;
+}
+.deliver_list {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ededed;
+}
+.deliver_list h4 {
+  height: 57px;
+  padding: 23px 0 20px;
+  font-size: 14px;
+  color: #333;
+}
+.deliver_time {
+  height: 102px;
+  border-bottom: 1px solid #fff;
+  background-color: #f4f4f4;
+}
+.deliver_time h4 {
+  height: 50px;
+  padding: 20px 0 18px 1px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.deliver_info {
+  height: 30px;
+  line-height: 30px;
+}
+.deliver_info span {
+  line-height: 30px;
+  font-style: 12px;
+}
+.deliver_info span:nth-child(1) {
+  display: inline-block;
+  width: 144px;
+  line-height: 26px;
+  text-align: center;
+  margin-right: 49px;
+  border: 2px solid #c81623;
+  background-color: #fff;
+}
+.deliver_info a {
+  display: block;
+  margin-right: 35px;
+  color: #1474af;
+}
+.deliver_goods {
+  height: 153px;
+  background-color: #feedef;
+}
+.deliver_goods h4 {
+  height: 51px;
+  padding: 20px 0 19px 1px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.deliver_goods_info {
+  height: 82px;
+}
+.deliver_goods_info span {
+  float: left;
+  display: block;
+  font-style: 12px;
+}
+.deliver_goods_info span:first-child {
+  width: 82px;
+  height: 82px;
+  margin-right: 111px;
+  background: url(../images/配送方式.png) no-repeat;
+}
+.deliver_goods_info span:nth-child(2) em:first-child {
+  display: block;
+  width: 336px;
+  height: 33px;
+  line-height: 20px;
+}
+.deliver_goods_info span:nth-child(2) em:last-child {
+  display: block;
+  margin-top: 25px;
+  color: #c81623;
+}
+.deliver_goods_info span:nth-child(3) {
+  float: left;
+  display: block;
+  height: 32px;
+  font-size: 14px;
+  line-height: 32px;
+  margin-left: 322px;
+  color: #e12228;
+}
+.deliver_goods_info span:nth-child(4) {
+  display: block;
+  float: left;
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  margin-left: 35px;
+}
+.deliver_goods_info span:nth-child(5) {
+  display: block;
+  float: left;
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  margin-left: 78px;
+}
+.bill_info h4 {
+  height: 54px;
+  line-height: 54px;
+  font-size: 14px;
+  color: #333;
+}
+.bill {
+  height: 32px;
+}
+.bill_info span {
+  display: block;
+  margin-right: 22px;
+}
+.bill_info ul li {
+  float: left;
+  font-size: 12px;
+  padding: 0 15px;
+}
+.bill_info ul .current a {
+  color: #1474af;
+}
+.bill_info h5 {
+  height: 34px;
+  font-size: 14px;
+  color: #333;
+}
+.bill_info h5::after {
+  content: '\e900';
+  font-family: 'icomoon';
+  color: #666;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.money_list {
+  padding: 21px 7px 18px 0;
+  text-align: right;
+}
+.money_list li span {
+  display: inline-block;
+  height: 18px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.money_list li span:first-child {
+  margin-right: 75px;
+}
+.money_list li span:last-child {
+  color: #333;
+}
+.money_list li:nth-child(2) span:first-child {
+  margin-right: 90px;
+}
+.money_list li:last-child span:last-child {
+  color: #b1191a;
+}
+.order_last {
+  height: 72px;
+  padding: 17px 6px 17px 0;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  text-align: right;
+}
+.order_last ul li {
+  height: 18px;
+  line-height: 18px;
+  font-size: 12px;
+}
+.order_last ul li span:first-child {
+  margin-right: 30px;
+  color: #333;
+}
+.order_last ul li span:last-child {
+  font-size: 16px;
+  color: #b1191a;
+}
+.btn {
+  height: 78px;
+  padding: 20px 32px 12px 0;
+}
+.submit_order {
+  float: right;
+  width: 142px;
+  height: 46px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 46px;
+  color: #fff;
+  background-color: #df3033;
+}

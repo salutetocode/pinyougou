@@ -1,0 +1,128 @@
+/* 声明字体图标 这里一定要注意路径的变化*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?1m3v4t');
+  src:  url('../fonts/icomoon.eot?1m3v4t#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?1m3v4t') format('truetype'),
+    url('../fonts/icomoon.woff?1m3v4t') format('woff'),
+    url('../fonts/icomoon.svg?1m3v4t#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.style_red{
+    color: #c81523;
+}
+header{
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+/* .logo{
+    padding-top: 16px;
+} */
+.registerarea{
+    margin-top: 20px;
+    height: 522px;
+    border: 1px solid #ccc;
+}
+.registerarea .register_hd{
+    height: 41px;
+    line-height: 41px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    padding: 0 10px;
+}
+.registerarea .register_hd h3{
+    float: left;
+    font-size: 18px;
+}
+.registerarea .register_hd span{
+    display: block;
+    float: right;
+    font-size: 14px;
+}
+.registerarea .reg_form{
+    width: 600px;
+    margin: 50px auto 0;
+}
+.registerarea .reg_form ul li{
+    margin-bottom: 20px;
+}
+.registerarea .reg_form ul li label{
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.registerarea .reg_form ul li .inp{
+    width: 240px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+
+.registerarea .reg_form ul li .error{
+    font-size: 12px;
+    color: #c81523;
+    margin-left: 10px;
+}
+.registerarea .reg_form ul li .error .error_icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(../images/error.png) no-repeat;
+    margin-top: -2px;
+}
+.registerarea .reg_form ul .safe{
+    margin-bottom: 20px;
+    padding-left: 160px;
+}
+.registerarea .reg_form ul .safe em{
+    padding: 0 12px;
+    color: #fff;
+}
+.ruo{
+    background-color: #de1111;
+}
+.zhong{
+    background-color: #40b83f;
+}
+.qiang{
+    background-color: #f79100;
+}
+.registerarea .reg_form ul li .agree{
+    margin-left: 86px;
+    font-size: 12px;
+}
+.registerarea .reg_form ul li .agree a{
+    color: #1ba1e6;
+}
+.registerarea .btn{
+    margin-left: 95px;
+    width: 200px;
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+    background-color: #c81623;
+    color: #fff;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 24px;
+}
+.mod_copyright{
+    text-align: center;
+    padding-top: 20px;
+}
+.mod_copyright .links{
+    margin-bottom: 15px;
+}
+.mod_copyright .links a:hover{
+    text-decoration: none;
+}
+.mod_copyright .copyright{
+    line-height: 20px;
+}

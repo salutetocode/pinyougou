@@ -1,0 +1,168 @@
+body {
+  width: 100%;
+  background-color: #fff;
+}
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.login_logo {
+  height: 82px;
+  padding-left: 285px;
+}
+.container {
+  position: relative;
+  height: 487px;
+  background: url(../images/bg.png) no-repeat;
+}
+.login_form {
+  position: absolute;
+  left: 50%;
+  top: 60px;
+  margin-left: 120px;
+  padding: 23px 40px 0 37px;
+  width: 380px;
+  height: 362px;
+  background-color: #fff;
+}
+.login_way {
+  width: 304px;
+  height: 20px;
+  font-size: 18px;
+}
+.login_way ul li {
+  float: left;
+  width: 152px;
+}
+.login_way ul li:first-child {
+  padding-left: 10px;
+  text-align: left;
+  border-right: 1px solid #ccc;
+}
+.login_way ul li:last-child {
+  padding-right: 10px;
+  text-align: right;
+}
+.login_way .current {
+  color: #c81623;
+}
+.login_tip {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 304px;
+  height: 26px;
+  padding-left: 9px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #666;
+  border: 1px solid #f5eecf;
+  background-color: #fffdee;
+}
+form {
+  width: 304px;
+}
+.user_name,
+.user_pwd {
+  height: 36px;
+  border: 1px solid #bbbaba;
+  margin-bottom: 20px;
+}
+form .current {
+  border: 1px solid skyblue;
+}
+.user_img,
+.pwd_img {
+  width: 37px;
+  height: 35px;
+  background: url(../images/账号.png) no-repeat;
+  overflow: hidden;
+}
+.user_name input,
+.user_pwd input {
+  width: 264px;
+  height: 34px;
+  line-height: 34px;
+  padding-left: 11px;
+}
+.user_name input::placeholder,
+.user_pwd input::placeholder {
+  color: #ccc;
+}
+.auto_choose {
+  height: 14px;
+  font-size: 12px;
+  line-height: 14px;
+  padding-right: 8px;
+}
+.auto_choose .left {
+  color: #666;
+}
+.auto_choose .left input {
+  vertical-align: middle;
+}
+.auto_choose .right {
+  color: #333;
+  font-weight: 700;
+}
+.btn {
+  width: 304px;
+  height: 41px;
+  margin-top: 20px;
+  background-color: #c81623;
+  font-size: 16px;
+  text-align: center;
+  line-height: 41px;
+  color: #fff;
+}
+.social_login {
+  margin-top: 32px;
+}
+.social_login ul li {
+  float: left;
+  width: 34px;
+  height: 32px;
+  margin-right: 18px;
+}
+.social_login ul li:nth-child(1) {
+  background: url(../images/social_login.png) no-repeat -18px -8px;
+}
+.social_login ul li:nth-child(2) {
+  background: url(../images/social_login.png) no-repeat -70px -8px;
+}
+.social_login ul li:nth-child(3) {
+  background: url(../images/social_login.png) no-repeat -122px -8px;
+}
+.social_login ul li:nth-child(4) {
+  background: url(../images/social_login.png) no-repeat -174px -8px;
+}
+.social_login a {
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #1474af;
+}
+.footer {
+  margin-top: 20px;
+  background-color: #fff;
+}
+.mod_copyright {
+  text-align: center;
+  padding-top: 20px;
+}
+.mod_copyright .links {
+  margin-bottom: 15px;
+}
+.mod_copyright .links a:hover {
+  text-decoration: none;
+}
+.mod_copyright .copyright {
+  line-height: 20px;
+}
